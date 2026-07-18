@@ -1,4 +1,4 @@
-from director import DisplayTree
+from quirky_director import DisplayTree
 
 def test_main():
     custom_path = ".//tests//Main_Directory"

@@ -3,7 +3,7 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "director"
+name = "quirky_director"
 version = "1.0.0"
 description = "A locally developed utility package"
 readme = "README.md"

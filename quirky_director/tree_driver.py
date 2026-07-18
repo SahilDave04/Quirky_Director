@@ -5,7 +5,7 @@ from pathlib import Path
 from platform import system
 from traceback import format_exc
 from typing import Any, List, Union
-from director.tree_calculator import DirectoryPath
+from quirky_director.tree_calculator import DirectoryPath
 
 
 # Class for Displaying Directory Tree

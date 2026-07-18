@@ -1,6 +1,6 @@
 # Importing Necessary Libraries & Modules
 from argparse import ArgumentParser
-from director.tree_driver import DisplayTree
+from quirky_director.tree_driver import DisplayTree
 from .version import __version__
 
 
