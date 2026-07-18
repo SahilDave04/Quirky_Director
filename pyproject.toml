@@ -6,8 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "quirky_director"
 version = "1.0.0"
 description = "Fork of the Directory-Tree Package that displays out the Tree Structure of a Particular Directory with the added functionality to export to a Directory_Tree text file."
-authors = [Sahil Dave]
+authors = [{name: "Sahil Dave"}]
 readme = "README.md"
+license = {text: "MIT"}
 requires-python = ">=3.8"
 dependencies = []
 
