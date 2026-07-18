@@ -1,0 +1,161 @@
+# Director Package
+
+![Python Version](https://img.shields.io/badge/python-3.6+-brightgreen.svg)
+[![PyPI version](https://badge.fury.io/py/directory-tree.svg)](https://badge.fury.io/py/directory-tree)
+![Last Commit](https://img.shields.io/github/last-commit/SahilDave04/Director?style=flat-square)
+
+
+## About 
+
+Want to Save your Project / Current Working Directory as a Neat Tree to a Text file? No Worries!
+
+`Director` is a Fork of the <a href="https://github.com/rahulbordoloi/Directory-Tree">Directory-Tree Package</a> that displays 
+out the Tree Structure of a Particular Directory with the added functionality to export to a Directory_Tree text file.
+
+<b><i> Currently Available for All Platforms.  </i></b>
+
+## Installation
+
+Run the Following Command on your Terminal to Install `director`: 
+
+1 .  Installing the Package using `pip`:
+```bash
+pip install director
+```
+OR
+
+```bash
+pip3 install director
+```
+
+2 . Cloning the Repository:
+
+```bash
+git clone https://github.com/SahilDave04/Director/
+cd Director
+pip install -e .
+```
+You can use either of the above methods to install `director`.
+
+## Usage
+
+<h3> Function Signature </h3>
+
+```python
+DisplayTree(
+    dirPath: str='',
+    stringRep: bool=False,
+    header: bool=False,
+    maxDepth: float=float('inf'),
+    showHidden: bool=False,
+    ignoreList: List[str]=None,
+    onlyFiles: bool=False,
+    onlyDirs: bool=False,
+    sortBy: int=0,
+    exportTxt: bool=False
+) -> Union[str, None]:
+```
+
+<h3> Arguments Description </h3>
+
+| __Parameters__ | __CLI Parameters__ | __Description__                                                                                                |
+|----------------|--------------------|----------------------------------------------------------------------------------------------------------------|
+| __dirPath__    | `directory`        | Root Path of Operation. By Default, Refers to the Current Working Directory.                                   |
+| __stringRep__  | N/A                | Boolean Flag for Direct Console Output or a String Return of the Same. By Default, It Gives out Console Output. |
+| __header__     | `--header`         | Boolean Flag for Displaying [OS & Directory Path] Info in the Console. Not Applicable if `stringRep=True`.     |
+| __maxDepth__   | `-L`, `--max-depth`| Max Depth of the Directory Tree. By Default, It goes upto the Deepest Directory/File.                          |
+| __showHidden__ | `-a`, `--show-hidden`| Boolean Flag for Returning/Displaying Hidden Files/Directories if Value Set to `True`.                         |
+| __ignoreList__ | `-I`, `--ignore-list`| List of File and Directory Names or Patterns to Ignore.                                                        |
+| __onlyFiles__  | `-f`, `--only-files`| Boolean Flag to Display Only Files                                                                             |
+| __onlyDirs__   | `-d`, `--only-dirs` | Boolean Flag to Display Only Directories                                                                       |
+| __sortBy__     | `--sort-by`        | Sorting order. Possible Options: 0 - Default, 1 - Files First, 2 - Directories First                           |
+| __raiseException__     | `--raise-exception`        | Boolean Flag to Raise Exception. By Default, It Doesn't Raise Exception                          |
+| __printErrorTraceback__     | `--print-error-traceback`        | Boolean Flag to Print Error Traceback. By Default, It Doesn't Print Error Traceback  |
+| __exportTxt__ | `-o`, `--exportTxt`     | Boolean Flag to Export Directory Tree to TXT File |
+
+
+<h3> Command Line </h3>
+
+1. **Treating the Cloned Directory as Executable**  - <br>
+   (Works if you've cloning privileges but not of installation. You can clone the repo, go to its root and run the below)
+```bash
+python director
+```
+
+OR
+
+```bash
+python -m director
+```
+
+Use the inline help for command-line options:
+```
+python director --help
+```
+
+2. **Treating the Package as Module** - <br>
+   (You would need to install (`pip`) the Python Package in your system for the below to work)
+```bash
+director
+```
+
+Use the inline help for command-line options:
+```bash
+director --help
+```
+
+<h3> In Code </h3>
+
+Example Script to Print out the Tree Structure of a User-Defined Directory `directoryPath`!
+
+```python
+# Importing Libraries
+from director import DisplayTree
+
+# Main Method
+if __name__ == '__main__':
+    DisplayTree(directoryPath)
+```
+
+*   Here by default, the `directoryPath` is the current working directory (CWD) unless specified by the user.
+
+## Output Examples
+
+Sample Directory Tree -
+
+![SampleDirectoryTree.png](https://github.com/SahilDave04/Director/blob/main/images/only_header.png?raw=true)
+
+1. For <i>Current Working Directory</i> with Argument [Header Info = `False`]
+
+```python
+from director import DisplayTree
+
+DisplayTree()
+```
+
+![CWDwithHeader.png](https://github.com/SahilDave04/Director/blob/main/images/only_header.png?raw=true)
+
+2. For <i>User Specified Directory</i> with Arguments [String Representation = `True`, Show Hidden Entities = `True`]
+
+```python
+from director import DisplayTree
+
+customPath: str = 'A://Coding_Files//To-Do_List'
+stringRepresentation: str = DisplayTree(customPath, stringRep=True)
+print(stringRepresentation)
+```
+
+![UserSpecifiedDirectoryStrRepShowHidden.png](https://github.com/SahilDave04/Director/blob/main/images/header_without_stringRep.png?raw=true)
+
+## Security & Probable Bugs
+
+*   `Director` uses recursion. It will raise a `RecursionError` on really deep directory trees.
+*   As the tree is lazily evaluated, it should behave well on really wide directory trees. Immediate children of a given directory are not lazily evaluated, though. It would be prompted to the last.
+*   If you're a Windows user, it is always advised to use `\\` instead of `\` in the address as using `\` might catchup escape sequences and corrupt the address string.
+
+## Contact Author
+
+Name : __Sahil Dave__ <br>
+Forked From : <a href="https://github.com/rahulbordoloi/Directory-Tree">rahulbordoloi/Directory-Tree</a><br>
+
+Made with <span style="color: #e25555;">&#9829;</span> in Python!
