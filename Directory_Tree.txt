@@ -1,0 +1,210 @@
+main_director/
+|-- .git/
+|   |-- COMMIT_EDITMSG
+|   |-- config
+|   |-- description
+|   |-- FETCH_HEAD
+|   |-- HEAD
+|   |-- hooks/
+|   |   |-- applypatch-msg.sample
+|   |   |-- commit-msg.sample
+|   |   |-- fsmonitor-watchman.sample
+|   |   |-- post-update.sample
+|   |   |-- pre-applypatch.sample
+|   |   |-- pre-commit.sample
+|   |   |-- pre-merge-commit.sample
+|   |   |-- pre-push.sample
+|   |   |-- pre-rebase.sample
+|   |   |-- pre-receive.sample
+|   |   |-- prepare-commit-msg.sample
+|   |   |-- push-to-checkout.sample
+|   |   |-- sendemail-validate.sample
+|   |   |__ update.sample
+|   |-- index
+|   |-- info/
+|   |   |__ exclude
+|   |-- logs/
+|   |   |-- HEAD
+|   |   |__ refs/
+|   |       |-- heads/
+|   |       |__ remotes/
+|   |-- ms-persist.xml
+|   |-- objects/
+|   |   |-- 00/
+|   |   |   |__ 45489fdc2425187168bab814cdb97a66624702
+|   |   |-- 01/
+|   |   |   |__ 939cc9bad9fda1e4b028ab05de84d1dc0a84e7
+|   |   |-- 05/
+|   |   |   |__ e702981fe8b9a6ef9f4030f9fd18cec04ff08b
+|   |   |-- 0a/
+|   |   |   |-- 3cf634438af4fda9676ddc00ddb69025db2996
+|   |   |   |__ 51f690cffed3c3c7a31130fdc346d7bea13fc1
+|   |   |-- 19/
+|   |   |   |__ a556d0785623d0d172668564c5d5d5c163193b
+|   |   |-- 1f/
+|   |   |   |-- 356cc57bfa00a3b251402604c54702fb414c96
+|   |   |   |-- 7e2ef48aaa9e79cf1e5d99787d62efb054b728
+|   |   |   |__ f0c423042b46cb1d617b81efb715defbe8054d
+|   |   |-- 29/
+|   |   |   |__ 7df756a99ea881f1c9de3cedee1275efd61e04
+|   |   |-- 35/
+|   |   |   |__ 2a2ce74af5d0f852cdb3d19e2d614d6420dd8d
+|   |   |-- 36/
+|   |   |   |__ fa1f2b604fc232fc75bbab59d4930aab5d6575
+|   |   |-- 37/
+|   |   |   |__ 0524d88e1d29772f6c2ab31236e67d0eb14c3b
+|   |   |-- 3d/
+|   |   |   |__ d178fa2e64ee9201f7007cf639d84c03fe0ac2
+|   |   |-- 53/
+|   |   |   |__ 023ab4c286a51804fbe58016acef54ff70be15
+|   |   |-- 55/
+|   |   |   |__ d3f5c4eb2e323a4ee51e0d1468d25468747360
+|   |   |-- 59/
+|   |   |   |__ 056014e2a03b0e4034e9c5543e02b658a4a93f
+|   |   |-- 5a/
+|   |   |   |__ 576368633764f4c9e6b878b8a4082b382862df
+|   |   |-- 5b/
+|   |   |   |__ 2cc93cd34a26b1b4aa3a9e6106ef942dbcda21
+|   |   |-- 65/
+|   |   |   |__ cfb42bd71b80f62d421f8f1f0d5093bc265bad
+|   |   |-- 66/
+|   |   |   |__ c34baef3b632b37064bd22681753a80326a016
+|   |   |-- 67/
+|   |   |   |__ 4b9945c377439d286b9abd634d45bf55cbb18f
+|   |   |-- 69/
+|   |   |   |__ 3c4675c6340910c99f786e64278bea58c59834
+|   |   |-- 6d/
+|   |   |   |__ 8d94422ce35c5b382809b6d8c2706be8ea84a6
+|   |   |-- 70/
+|   |   |   |__ 7e22ce408f68c5c35be73bca2c430066c99c7d
+|   |   |-- 72/
+|   |   |   |__ d2d70ece9492354f646f5870d9b668e87296f2
+|   |   |-- 75/
+|   |   |   |__ fb013813759e5f74532bd5bedcb9ce5fbd792b
+|   |   |-- 7a/
+|   |   |   |__ dcbc77532fff69c95be212f546fb771922e7ae
+|   |   |-- 81/
+|   |   |   |__ 7287f1696edfb43e5fc32af35a946ecf950178
+|   |   |-- 8b/
+|   |   |   |-- 137891791fe96927ad78e64b0aad7bded08bdc
+|   |   |   |__ d2944fc71d681049e69d017db95e7675b02bc0
+|   |   |-- 8d/
+|   |   |   |__ e9fa870a780d3676f86f06502ff41b7baa08ec
+|   |   |-- 94/
+|   |   |   |__ 91a2fda28342ab358eaf234e1afe0c07a53d62
+|   |   |-- 95/
+|   |   |   |__ 8955a6a8f42b7bc315b1c65c1aecb81e0925a0
+|   |   |-- a2/
+|   |   |   |__ efc0f1fcbb5bb50d05424132ed4f68bca3ee42
+|   |   |-- ae/
+|   |   |   |__ 631dac526317e06881006b4727931a1fb095d1
+|   |   |-- b2/
+|   |   |   |__ 5d8afa970afd8fe6b10638cf4beb20a0c049ac
+|   |   |-- b4/
+|   |   |   |__ e4dd85a3fad10e4d4933ba8706f5d489d65d45
+|   |   |-- b6/
+|   |   |   |-- 1daf077002f770b359b4b3cd1882708acdf4a0
+|   |   |   |__ e8898b24f3bc84ec3f0af6caf777c195f6b208
+|   |   |-- b7/
+|   |   |   |__ a973ed506184ae1a6a301f8d0383587062193e
+|   |   |-- b9/
+|   |   |   |__ 36ff52ea17209a5d3945e644c4898d3d7fcdda
+|   |   |-- bf/
+|   |   |   |__ 3f59f47f185149a7133ba08b9b38b9a67c5426
+|   |   |-- cf/
+|   |   |   |__ fa8b217def559cbdd9be4c54e005fcbd3086bf
+|   |   |-- d0/
+|   |   |   |__ 87554df7ea71e80f1ec5bb32054b8d44bde0a0
+|   |   |-- d1/
+|   |   |   |__ 3c53ae9d09c414a61463ec971f85cadcbf45ce
+|   |   |-- d3/
+|   |   |   |__ 09e7552748e57e29109f02e4d2167d945e989c
+|   |   |-- d4/
+|   |   |   |__ 76742b55957f558e2b914c713c23acc1c6ab1b
+|   |   |-- da/
+|   |   |   |__ 4328257ad541db70c5b9a507e0d580a62c3dfa
+|   |   |-- de/
+|   |   |   |__ e86797d0a2c1d8ad08c76c161099c676ddb192
+|   |   |-- e6/
+|   |   |   |__ 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+|   |   |-- e7/
+|   |   |   |__ cf77fd718f50bf79fc3de17086a0d91a02089c
+|   |   |-- f0/
+|   |   |   |__ d3a70ceaa69fb70811f58254dc738e0f939eac
+|   |   |-- f2/
+|   |   |   |__ 88702d2fa16d3cdf0035b15a9fcbc552cd88e7
+|   |   |-- f6/
+|   |   |   |__ 8d6652b7b824d89a917445ee4e16cb0ce9db24
+|   |   |-- info/
+|   |   |__ pack/
+|   |-- ORIG_HEAD
+|   |__ refs/
+|       |-- heads/
+|       |   |__ main
+|       |-- remotes/
+|       |   |__ origin/
+|       |__ tags/
+|-- .gitattributes
+|-- .gitignore
+|-- .vs/
+|   |-- Director/
+|   |   |-- CopilotIndices/
+|   |   |   |__ 17.14.1681.23550/
+|   |   |-- FileContentIndex/
+|   |   |   |-- 08d50795-9b4e-4872-bf9d-d832229a460f.vsidx
+|   |   |   |-- 200659fd-c451-4a22-8cf6-e08f8385f319.vsidx
+|   |   |   |-- 2fe2ac86-fc9a-4e7c-a64c-86fc1793ea9e.vsidx
+|   |   |   |-- 421f86f2-6be4-41ad-9135-b1e025219b68.vsidx
+|   |   |   |__ c3160d48-2732-4048-a0e9-670183eb2f58.vsidx
+|   |   |__ v17/
+|   |       |-- .suo
+|   |       |-- .wsuo
+|   |       |-- DocumentLayout.backup.json
+|   |       |__ DocumentLayout.json
+|   |-- main_director/
+|   |   |-- CopilotIndices/
+|   |   |   |__ 17.14.1681.23550/
+|   |   |-- FileContentIndex/
+|   |   |   |-- 763a7f25-55c3-4f65-b3e8-0b91a626e162.vsidx
+|   |   |   |-- 76e7d88e-d9af-4cca-a9d7-35f5bb62b664.vsidx
+|   |   |   |-- 83969b63-b45c-4a6c-8705-74f8dcf253c4.vsidx
+|   |   |   |-- 9f3ddf9e-cb3b-4918-813e-bfd5b7dc8c1a.vsidx
+|   |   |   |__ f9a6525f-7dd2-4cfb-8086-f354035828f3.vsidx
+|   |   |__ v17/
+|   |       |-- .wsuo
+|   |       |-- DocumentLayout.backup.json
+|   |       |__ DocumentLayout.json
+|   |-- slnx.sqlite
+|   |__ VSWorkspaceState.json
+|-- director/
+|   |-- __init__.py
+|   |-- __main__.py
+|   |-- tree_calculator.py
+|   |-- tree_cli.py
+|   |-- tree_driver.py
+|   |__ version.py
+|-- director.egg-info/
+|   |-- dependency_links.txt
+|   |-- PKG-INFO
+|   |-- SOURCES.txt
+|   |__ top_level.txt
+|-- Directory_Tree.txt
+|-- images/
+|   |-- header_without_stringRep.png
+|   |__ only_header.png
+|-- LICENSE
+|-- pyproject.toml
+|-- README.md
+|__ tests/
+    |-- Main_Directory/
+    |   |-- .Dir_Store/
+    |   |   |__ TestFile.txt
+    |   |-- Directory 1/
+    |   |   |__ Directory 2/
+    |   |-- Directory A/
+    |   |   |-- .hiddenFile.txt
+    |   |   |__ Hmm.txt
+    |   |-- directory-tree-print.cpp
+    |   |-- letseee.txt
+    |   |__ printTree.exe
+    |__ V1.0.0_test.py
